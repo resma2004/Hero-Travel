@@ -1,0 +1,148 @@
+.navber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.navber-link {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navber-link li {
+    margin-right: 60px;
+}
+
+.navber-link li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navber-title {
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    margin-right: 250px;
+}
+
+#sub-title {
+    color: #fd6e0a;
+}
+
+.travel {
+    background-image: url(../public/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    fill: 131318;
+    color: white;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 2px;
+    font-weight: 600;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+    height: 84;
+    width: 800;
+
+}
+
+.plen {
+    margin-left: 150px;
+}
+
+.public {
+    position: absolute;
+    top: 85%;
+    right: 12%;
+}
+
+.tour-our {
+    padding: 50px;
+    font-size: 20px;
+    margin-left: 80px;
+
+
+
+
+}
+
+.red-btn {
+    padding: 10px 20px;
+    background-color: #fd6e0a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.picture {
+    position: absolute;
+    left: 16%;
+}
+
+.photo {
+    position: absolute;
+    right: 12%;
+    row-gap: 15px;
+}
+
+.fool {
+    text-align: center;
+    margin: 10%;
+}
+
+.rose {
+    text-align: center;
+}
+
+.tree {
+    background-color: antiquewhite;
+    margin-left: 90px;
+}
+
+.tree-to {
+    background-color: rgb(134, 210, 210);
+}
+
+.grap {
+    display: flex;
+    gap: 25%;
+    margin: 8%;
+}
+
+.discounts {
+    text-align: center;
+    margin: 10%;
+}
+
+.place {
+    position: absolute;
+    left: 50%;
+}
+
+.lost {
+    position: absolute;
+    left: 15%;
+    font-size: 20px;
+}
